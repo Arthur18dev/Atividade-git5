@@ -1,0 +1,26 @@
+.titulo-azul
+{
+    color: blue;
+}
+body {
+    background-color: burlywood;
+
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
+.box{
+    width: 260px;
+    height: 480px;
+    background: white;
+    border-radius: 7px;
+}
+img {
+    width: 258px;
+    height: 50vh;
+}
+.color{
+    color: gray;
+}
