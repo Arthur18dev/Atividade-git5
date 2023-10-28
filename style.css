@@ -2,12 +2,11 @@
 {
     color: blue;
 }
-body {
-    background-color: burlywood;
-
+section {
     .container{
         display: flex;
         flex-direction: row;
+        align-items: center;
         justify-content: space-evenly;
     }
 }
@@ -16,6 +15,8 @@ body {
     height: 480px;
     background: white;
     border-radius: 7px;
+    border: 2px solid white;
+    box-shadow: 3px 3px 16px black;
 }
 img {
     width: 258px;
